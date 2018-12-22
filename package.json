@@ -1,0 +1,42 @@
+{
+  "name": "reactcomponents",
+  "version": "1.0.0",
+  "description": "Proyecto React con ejemplos de componentes con Semantic UI",
+  "main": "index.js",
+  "author": "Eduardo Hidalgo",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "webpack",
+    "material-design"
+  ],
+  "scripts": {
+    "build:dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development",
+    "build:prod": "webpack -p"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.0",
+    "file-loader": "^2.0.0",
+    "json-loader": "^0.5.7",
+    "raw-loader": "^1.0.0",
+    "react-hot-loader": "^4.6.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dotenv": "^6.2.0",
+    "dotenv-webpack": "^1.5.7",
+    "prop-types": "^15.6.2",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+  }
+}
