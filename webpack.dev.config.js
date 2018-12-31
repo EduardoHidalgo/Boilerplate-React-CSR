@@ -3,6 +3,7 @@ const webpack = require("webpack");
 require('dotenv').config();
 const dotenvwebpack = require('dotenv-webpack');
 
+
 module.exports = {
     // Puntos de entrada del empaquetado
     entry: {
@@ -15,7 +16,7 @@ module.exports = {
     },
     devServer: {
         // obtiene el puerto del archivo de variables de entorno
-        port: process.env.DEV_PORT,
+        port: 9000,
         hot: true
     },
     module: {
