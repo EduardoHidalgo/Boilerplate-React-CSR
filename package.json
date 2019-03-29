@@ -1,7 +1,7 @@
 {
-  "name": "reactcomponents",
+  "name": "boilerplate-react-csr",
   "version": "1.0.0",
-  "description": "Proyecto React con ejemplos de componentes con Semantic UI",
+  "description": "Boilerplate de React para Client Side Rendering, con Webpack y Babel",
   "main": "index.js",
   "author": "Eduardo Hidalgo",
   "license": "MIT",
